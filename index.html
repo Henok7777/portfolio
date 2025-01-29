@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal portfolio">
+  <meta name="keywords" content="Portfolio, Personal, Henok, Tesfalem, Full, Stack, Developer, Ruby, Rails">
+  <meta name="author" content="Henok Tesfalem">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/crno-belo.jpg">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/6abfc73bc9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>H-portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg">
+    <div class="container-fluid d-flex justify-content-end">
+      <button type="button" class="nav-button d-lg-none" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarText">
+        <div class="navigation d-flex justify-content-center align-items-start mt-4 ">
+          <ul class="nums d-flex flex-column align-content-start d-lg-none">
+            <li class="num-c me-2 pb-3 mb-4">01</li>
+            <li class="num-c me-2 pb-3 mb-4">02</li>
+            <li class="num-c me-2 pb-3 mb-4">03</li>
+            <li class="num-c me-2 pb-3 mb-4">04</li>
+          </ul>
+          <ul class="navbar-nav mb-4  d-flex flex-column flex-lg-row">
+            <li class="nav-item d-flex ">
+              <a class="nav-link m-0 p-0 pt-3 mb-4 " aria-current="page" href="#header">Hello</a>
+            </li>
+            <li class="nav-item d-flex justify-content-start">
+              <a class="nav-link m-0 p-0 pt-3 mb-4 " href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item d-flex justify-content-start">
+              <a class="nav-link m-0 p-0 pt-3 mb-4 " href="#services">Services</a>
+            </li>
+            <li class="nav-item d-flex justify-content-start">
+              <a class="nav-link m-0 p-0 pt-3 mb-4 " href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="container " id="header">
+    <div class="page">
+      <span class="num">01</span>
+    </div>
+    <div class="header-text">
+      <p class="text fw-bold my-0">Hello, I'm</p>
+      <h1>Henok Tesfalem</h1>
+      <p class="text">Hello! I am a software developer! I can help you build a product, feature or website. Look through
+        some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate and
+        contact me.</p>
+      <div class="works  d-xl-flex justify-content-between pt-5">
+        <div class="see-works">
+          <a href="#portfolio">See my works</a>
+        </div>
+        <div class="hr-7"></div>
+        <ul class="d-flex justify-content-between mx-0 px-0 m-xl-0">
+          <li><a href="#" target="blank"><i class="fab fa-stack-overflow"></i></a></li>
+          <li><a href="#" target="blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" target="blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="#" target="blank"><i class="fab fa-medium-m"></i></a></li>
+          <li><a href="#" target="blank"><i class="fab fa-angellist"></i></a></li>
+        </ul>
+
+      </div>
+      <div class="elipse animate__animated animate__bounceInDown rounded-circle"></div>
+    </div>
+  </header>
+
+  <div class="wrapper container-fluid">
+    <section class="portfolio container container-lg-fluid " id="portfolio">
+      <div class="page">
+        <span class="num">02</span>
+      </div>
+      <div class="portfolio-text">
+        <p class="text">My recent works</p>
+        <h2>Portfolio</h2>
+      </div>
+      <div class="projects-container d-flex flex-wrap">
+        <div class="projects-section ">
+          <div class="project">
+            <div class="project-details py-4 p-lg-4">
+              <button type="button"
+                class="close-details ms-auto d-block my-3 fs-1 text-light bg-transparent border-0"><i
+                  class="far fa-times-circle "></i></button>
+              <h4 class="details-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly justify-content-lg-start mx-3 mx-lg-0">
+                <li class="d-flex justify-content-center align-items-center mr-2"><a href="#">Ruby</a> </li>
+              </ul>
+              <div class="details-container w-100 d-lg-flex">
+                <div class="img my-3 mx-auto "></div>
+                <div class="details-text p-lg-4">
+                  <p class="text-light">Tic-Tac-Toe game built using Ruby.</p>
+                  <p class="text-light">This project is a tic-tac-toe game on the command line where two human players
+                    can play against each other, and the board is displayed in between turns.</p>
+                  <div class="links d-lg-flex justify-content-between ">
+                    <a class="d-block w-50 text-danger d-lg-inline" target="blank"
+                      href="https://replit.com/@safaaballagh/Tic-Tac-ToeRuby-project#.replit">See live <i
+                        class="fas fa-external-link-alt"></i></a>
+
+                    <a class="d-block  text-danger d-lg-inline" target="blank" href="#">See source <i
+                        class="fab fa-github"></i></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="project-preview ">
+              <h4 class="preview-heading text-light ">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly mx-3 ">
+                <li class="d-flex justify-content-center align-items-center"><a href="#">Ruby</a> </li>
+              </ul>
+              <div class="  button d-flex justify-content-center align-items-center ">
+                <button type="button" class="btn text-light btn-project">See this project <i
+                    class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-details py-4 p-lg-4">
+              <button type="button"
+                class="close-details ms-auto d-block my-3 fs-1 text-light bg-transparent border-0"><i
+                  class="far fa-times-circle "></i></button>
+              <h4 class="details-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly justify-content-lg-start mx-3 mx-lg-0">
+                <li class="d-flex justify-content-center align-items-center mr-2"><a href="#">React</a> </li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">Redux</a></li>
+              </ul>
+              <div class="details-container w-100 d-lg-flex">
+                <div class="img my-3 mx-auto "></div>
+                <div class="details-text p-lg-4">
+                  <p class="text-light">"Covid-19 Tracking Project" is a mobile web application that displays Covid-19
+                    tracking data from <a target="blank"
+                      href="https://covid19tracking.narrativa.com/index_en.html">Narrativa API. </a></p>
+                  <p class="text-light">You can check number of total cases until now as well as the last 7 days
+                    detailed data for each country separately. It was build using React and Redux libraries.
+                  </p>
+                  <div class="links d-lg-flex justify-content-between ">
+                    <a class="d-block w-50 text-danger d-lg-inline" target="blank"
+                      href="https://shinobiwarior.github.io/Covid-19-Tracking-Project/">See live <i
+                        class="fas fa-external-link-alt"></i></a>
+
+                    <a class="d-block  text-danger d-lg-inline" target="blank"
+                      href="https://github.com/ShinobiWarior/covid-19-tracking-project">See source <i
+                        class="fab fa-github"></i></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="project-preview ">
+              <h4 class="preview-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly mx-3">
+                <li class="d-flex justify-content-center align-items-center mr-2"><a href="#">React</a> </li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">Redux</a></li>
+              </ul>
+              <div class="button d-flex justify-content-center align-items-center">
+                <button type="button" class="btn text-light btn-project">See this project <i
+                    class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="no-section">
+          <div class="project">
+            <div class="project-details py-4 p-lg-4">
+              <button type="button"
+                class="close-details ms-auto d-block my-3 fs-1 text-light bg-transparent border-0"><i
+                  class="far fa-times-circle "></i></button>
+              <h4 class="details-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly justify-content-lg-start mx-3 mx-lg-0">
+                <li class="d-flex justify-content-center align-items-center mr-2"><a href="#">Ruby/Ruby on rails</a>
+                </li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">Bootstrap 5</a></li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">Sass</a></li>
+              </ul>
+              <div class="details-container w-100 d-lg-flex">
+                <div class="img my-3 mx-auto "></div>
+                <div class="details-text p-lg-4">
+                  <p class="text-light">This is the Ruby on Rails capstone project and represents the Application for
+                    grouping Cakes in different Categories. </p>
+                  <p class="text-light">In this project, I created a mobile application for grouping cakes into a
+                    different categories. You can register as a user and create cakes and groups and assign cakes to the
+                    groups.</p>
+                  <div class="links d-lg-flex justify-content-between ">
+                    <a class="d-block w-50 text-danger d-lg-inline" target="blank"
+                      href="https://agile-lake-56047.herokuapp.com/">See live <i
+                        class="fas fa-external-link-alt"></i></a>
+
+                    <a class="d-block  text-danger d-lg-inline" target="blank"
+                      href="https://github.com/ShinobiWarior/Group-our-cakes">See source <i
+                        class="fab fa-github"></i></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="project-preview ">
+              <h4 class="preview-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly mx-3">
+                <li class="d-flex justify-content-center align-items-center"><a href="#">Ruby/Ruby on rails</a> </li>
+                <li class="d-flex justify-content-center align-items-center"><a href="#">Bootstrap 5</a></li>
+                <li class="d-flex justify-content-center align-items-center"><a href="#">Sass</a></li>
+              </ul>
+              <div class="button d-flex justify-content-center align-items-center">
+                <button type="button" class="btn text-light btn-project">See this project <i
+                    class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="projects-container  d-flex flex-wrap">
+        <div class="no-section">
+          <div class="project">
+            <div class="project-details py-4 p-lg-4">
+              <button type="button"
+                class="close-details ms-auto d-block my-3 fs-1 text-light bg-transparent border-0"><i
+                  class="far fa-times-circle "></i></button>
+              <h4 class="details-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly justify-content-lg-start mx-3 mx-lg-0">
+                <li class="d-flex justify-content-center align-items-center mr-2"><a href="#">React</a> </li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">Redux</a></li>
+              </ul>
+              <div class="details-container w-100 d-lg-flex">
+                <div class="img my-3 mx-auto "></div>
+                <div class="details-text p-lg-4">
+                  <p class="text-light">Vacation Booking App is an online booking app that allows users to see
+                    destinations, reserve a destination,view all their reservations.</p>
+                  <p class="text-light"> Regestered users are able to view a list of destinations they booked. Only
+                    admin users are allowed to add and delete destinations.</p>
+                  <div class="links d-lg-flex justify-content-between ">
+                    <a class="d-block w-50 text-danger d-lg-inline" target="blank"
+                      href="https://booking-destinations.netlify.app/">See live <i
+                        class="fas fa-external-link-alt"></i></a>
+
+                    <a class="d-block  text-danger d-lg-inline" target="blank"
+                      href="https://github.com/danmainah/vacations-booking-front-end">See source <i
+                        class="fab fa-github"></i></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="project-preview ">
+              <h4 class="preview-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly mx-3">
+                <li class="d-flex justify-content-center align-items-center"><a href="#">React</a> </li>
+                <li class="d-flex justify-content-center align-items-center"><a href="#">Redux</a></li>
+              </ul>
+              <div class="button d-flex justify-content-center align-items-center">
+                <button type="button" class="btn text-light btn-project">See this project <i
+                    class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="projects-section ">
+          <div class="project">
+            <div class="project-details py-4 p-lg-4">
+              <button type="button"
+                class="close-details ms-auto d-block my-3 fs-1 text-light bg-transparent border-0"><i
+                  class="far fa-times-circle "></i></button>
+              <h4 class="details-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly justify-content-lg-start mx-3 mx-lg-0">
+                <li class="d-flex justify-content-center align-items-center mr-2"><a href="#">React</a> </li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">JavaScript</a></li>
+              </ul>
+              <div class="details-container w-100 d-lg-flex">
+                <div class="img my-3 mx-auto "></div>
+                <div class="details-text p-lg-4">
+                  <p class="text-light">"Math magicians" is a website for all fans of mathematics. </p>
+                  <p class="text-light">It is a Single Page App (SPA) that allows users to make simple calculations and
+                    read a random math-related quote. It was build using React. </p>
+                  <div class="links d-lg-flex justify-content-between ">
+                    <a class="d-block w-50 text-danger d-lg-inline" target="blank"
+                      href="https://shinobiwarior.github.io/Math-magicians/">See live <i
+                        class="fas fa-external-link-alt"></i></a>
+
+                    <a class="d-block  text-danger d-lg-inline" target="blank"
+                      href="https://github.com/ShinobiWarior/Math-magicians">See source <i
+                        class="fab fa-github"></i></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="project-preview ">
+              <h4 class="preview-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly mx-3">
+                <li class="d-flex justify-content-center align-items-center"><a href="#">React</a> </li>
+                <li class="d-flex justify-content-center align-items-center"><a href="#">JavaScript</a></li>
+              </ul>
+              <div class="button d-flex justify-content-center align-items-center">
+                <button type="button" class="btn text-light btn-project">See this project <i
+                    class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-details py-4 p-lg-4">
+              <button type="button"
+                class="close-details ms-auto d-block my-3 fs-1 text-light bg-transparent border-0"><i
+                  class="far fa-times-circle "></i></button>
+              <h4 class="details-heading text-light">Web</h4>
+              <ul class="stack d-flex justify-content-evenly justify-content-lg-start mx-3 mx-lg-0">
+                <li class="d-flex justify-content-center align-items-center mr-2"><a href="#">HTML5</a> </li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">CSS3</a></li>
+                <li class="d-flex justify-content-center align-items-center mx-2"><a href="#">Bootstrap4</a></li>
+              </ul>
+              <div class="details-container w-100 d-lg-flex">
+                <div class="img my-3 mx-auto "></div>
+                <div class="details-text p-lg-4">
+                  <p class="text-light"> website </p>
+                  <p class="text-light"></p>
+                  <div class="links d-lg-flex justify-content-between ">
+                    <a class="d-block w-50 text-danger d-lg-inline" target="blank"
+                      href="https://shinobiwarior.github.io/Bujinkan-tori/">See live <i
+                        class="fas fa-external-link-alt"></i></a>
+
+                    <a class="d-block  text-danger d-lg-inline" target="blank"
+                      href="https://github.com/ShinobiWarior/Bujinkan-tori">See source <i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-preview ">
+              <h4 class="preview-heading text-light">Project name</h4>
+              <ul class="stack d-flex justify-content-evenly mx-3">
+                <li class="d-flex justify-content-center align-items-center"><a href="#">HTML5</a> </li>
+                <li class="d-flex justify-content-center align-items-center"><a href="#">CSS3</a></li>
+                <li class="d-flex justify-content-center align-items-center"><a href="#">Bootstrap4</a></li>
+              </ul>
+              <div class="button d-flex justify-content-center align-items-center">
+                <button type="button" class="btn text-light btn-project">See this project <i
+                    class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="about-me container " id="services">
+    <div class="about-me-content">
+      <div class="page">
+        <span class="num">03</span>
+      </div>
+      <p class="text">Let me say something</p>
+      <h2>About me</h2>
+      <p class="text">A full-stack developer and student at ST.Mary where I acquired knowledge of
+        software development through remote work and pair programming. Passionate about problem-solving challenges and
+        building web applications. Tech enthusiast and team player who enjoys working in a diverse environment.</p>
+
+      <a class="resume mx-3 my-5 d-block text-danger w-50 " target="_blank" href="#">Get my Resume <i
+          class="fas fa-external-link-alt"></i></a>
+    </div>
+    <div class="boxes ">
+      <div class="row">
+        <div class="about-box">
+          <div class="icon rounded-circle">
+          </div>
+          <h4>Languages</h4>
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Ruby</li>
+            <li>HTML </li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="about-box">
+          <div class="icon rounded-circle">
+          </div>
+          <h4>Frameworks</h4>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>RSpec </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-box">
+          <div class="icon rounded-circle">
+          </div>
+          <h4>Skills</h4>
+          <ul>
+            <li>Codekit</li>
+            <li>Codepen</li>
+            <li>GitHub </li>
+            <li>GitLab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+        <div class="about-box">
+          <div class="icon rounded-circle">
+          </div>
+          <h4>Soft skills</h4>
+          <ul>
+            <li>Communication</li>
+            <li>Problem-solving</li>
+            <li>Patience</li>
+            <li>Adaptability</li>
+            <li>Team-work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="get-wrapper container-fluid">
+    <section class="get-started container" id="contact">
+      <div class="page">
+        <p class="num">04</p>
+      </div>
+      <div class="get-started-content">
+        <p class="text">Interested for colaboration?</p>
+        <h2>Get started</h2>
+        <hr>
+        <p class="text"> If you have any questions, I will be glad to answer them. Please fill the form and let's start
+          conversation </p>
+        <hr>
+
+        <form class="pb-5" action="https://formspree.io/f/xayadlvj" method="post">
+          <div class="form-field">
+            <label for="name">Your name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+          </div>
+          <div class="form-field">
+            <label for="email">Your email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+          </div>
+          <textarea id="message" name="message" rows="5" cols="50" class="text-area d-block"
+            placeholder="Enter your message here..."></textarea>
+          <input class="start d-block mx-auto my-3" type="submit" name="submit" id="submit" value="Start collaboration">
+        </form>
+
+        <div class="elipse rounded-circle d-none d-xl-block"></div>
+      </div>
+
+      <hr>
+    </section>
+    <footer class="container d-lg-flex justify-content-between ">
+      <a class="resume mx-3 my-5 d-block w-50 m-lg-0" target="_blank" href="#">Get my Resume <i
+          class="fas fa-external-link-alt"></i></a>
+      <ul class="d-flex justify-content-between mx-3 px-0">
+        <li><a href="#" target="blank"><i class="mx-lg-3 fs-3 fab fa-stack-overflow"></i></a></li>
+        <li><a href="#" target="blank"><i class="mx-lg-3 fs-3 fab fa-github"></i></a>
+        </li>
+        <li><a href="#" target="blank"><i class="mx-lg-3 fs-3 fab fa-twitter"></i></a></li>
+        <li><a href="#" target="blank"><i class="mx-lg-3 fs-3 fab fa-linkedin"></i></a></li>
+        <li><a href="#" target="blank"><i class="mx-lg-3 fs-3 fab fa-medium-m"></i></a>
+        </li>
+        <li><a href="#" target="blank"><i class="mx-lg-3 fs-3 fab fa-angellist"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="project.js"></script>
+</body>
+
+</html>
